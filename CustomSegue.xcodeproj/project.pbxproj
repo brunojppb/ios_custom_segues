@@ -12,6 +12,12 @@
 		157F8E081D7104CB003BB87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157F8E061D7104CB003BB87A /* Main.storyboard */; };
 		157F8E0A1D7104CB003BB87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157F8E091D7104CB003BB87A /* Assets.xcassets */; };
 		157F8E0D1D7104CB003BB87A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157F8E0B1D7104CB003BB87A /* LaunchScreen.storyboard */; };
+		157F8E151D710891003BB87A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F8E141D710891003BB87A /* SecondViewController.swift */; };
+		157F8E171D71089C003BB87A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F8E161D71089C003BB87A /* ThirdViewController.swift */; };
+		157F8E191D7109C3003BB87A /* FirstCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F8E181D7109C3003BB87A /* FirstCustomSegue.swift */; };
+		157F8E1B1D7109D4003BB87A /* FistCustomSegueUnwind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F8E1A1D7109D4003BB87A /* FistCustomSegueUnwind.swift */; };
+		157F8E1D1D7109DE003BB87A /* SecondCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F8E1C1D7109DE003BB87A /* SecondCustomSegue.swift */; };
+		157F8E1F1D7109EA003BB87A /* SecondCustomSegueUnwind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157F8E1E1D7109EA003BB87A /* SecondCustomSegueUnwind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		157F8E091D7104CB003BB87A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157F8E0C1D7104CB003BB87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		157F8E0E1D7104CB003BB87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157F8E141D710891003BB87A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		157F8E161D71089C003BB87A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		157F8E181D7109C3003BB87A /* FirstCustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCustomSegue.swift; sourceTree = "<group>"; };
+		157F8E1A1D7109D4003BB87A /* FistCustomSegueUnwind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FistCustomSegueUnwind.swift; sourceTree = "<group>"; };
+		157F8E1C1D7109DE003BB87A /* SecondCustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCustomSegue.swift; sourceTree = "<group>"; };
+		157F8E1E1D7109EA003BB87A /* SecondCustomSegueUnwind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCustomSegueUnwind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +68,16 @@
 			children = (
 				157F8E021D7104CB003BB87A /* AppDelegate.swift */,
 				157F8E041D7104CB003BB87A /* ViewController.swift */,
+				157F8E141D710891003BB87A /* SecondViewController.swift */,
+				157F8E161D71089C003BB87A /* ThirdViewController.swift */,
 				157F8E061D7104CB003BB87A /* Main.storyboard */,
 				157F8E091D7104CB003BB87A /* Assets.xcassets */,
 				157F8E0B1D7104CB003BB87A /* LaunchScreen.storyboard */,
 				157F8E0E1D7104CB003BB87A /* Info.plist */,
+				157F8E181D7109C3003BB87A /* FirstCustomSegue.swift */,
+				157F8E1A1D7109D4003BB87A /* FistCustomSegueUnwind.swift */,
+				157F8E1C1D7109DE003BB87A /* SecondCustomSegue.swift */,
+				157F8E1E1D7109EA003BB87A /* SecondCustomSegueUnwind.swift */,
 			);
 			path = CustomSegue;
 			sourceTree = "<group>";
@@ -137,6 +155,12 @@
 			files = (
 				157F8E051D7104CB003BB87A /* ViewController.swift in Sources */,
 				157F8E031D7104CB003BB87A /* AppDelegate.swift in Sources */,
+				157F8E171D71089C003BB87A /* ThirdViewController.swift in Sources */,
+				157F8E151D710891003BB87A /* SecondViewController.swift in Sources */,
+				157F8E191D7109C3003BB87A /* FirstCustomSegue.swift in Sources */,
+				157F8E1F1D7109EA003BB87A /* SecondCustomSegueUnwind.swift in Sources */,
+				157F8E1B1D7109D4003BB87A /* FistCustomSegueUnwind.swift in Sources */,
+				157F8E1D1D7109DE003BB87A /* SecondCustomSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

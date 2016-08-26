@@ -9,15 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var lblMessage: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let swipeGestureRecongnizer = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.presentSecondView))
+        swipeGestureRecongnizer.direction = .Up
+        self.view.addGestureRecognizer(swipeGestureRecongnizer)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func presentSecondView() {
+        self.performSegueWithIdentifier("idFirstSegue", sender: self)
     }
 
 

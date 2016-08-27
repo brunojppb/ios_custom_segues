@@ -68,6 +68,9 @@
                                         <include reference="kCZ-sy-Sr2"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="showThirdViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gk9-NN-WNI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -116,6 +119,7 @@
                     <connections>
                         <outlet property="lblMessage" destination="Be3-o7-gXp" id="Uua-KH-W6z"/>
                         <segue destination="7G0-SV-m4B" kind="custom" identifier="idFirstSegue" customClass="FirstCustomSegue" customModule="CustomSegue" customModuleProvider="target" id="EAg-iN-1MR"/>
+                        <segue destination="dDY-Pl-ZnU" kind="custom" identifier="idSecondSegue" customClass="SecondCustomSegue" customModule="CustomSegue" customModuleProvider="target" id="3Vl-Ij-Wve"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -270,7 +274,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fQ3-oh-uGZ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2076" y="-288.75"/>
+            <point key="canvasLocation" x="2191.5" y="-288.75"/>
         </scene>
     </scenes>
 </document>

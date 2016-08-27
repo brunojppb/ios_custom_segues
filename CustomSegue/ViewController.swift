@@ -24,6 +24,10 @@ class ViewController: UIViewController {
         self.performSegueWithIdentifier("idFirstSegue", sender: self)
     }
     
+    @IBAction func showThirdViewController(sender: AnyObject) {
+        self.performSegueWithIdentifier("idSecondSegue", sender: self)
+    }
+    
     @IBAction func returnFromSegueActions(sender: UIStoryboardSegue){
         if sender.identifier == "idFirstSegueUnwind" {
             let originalColor = self.view.backgroundColor

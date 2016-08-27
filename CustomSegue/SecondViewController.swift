@@ -15,23 +15,14 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let swipeGestureRecongnizer = UISwipeGestureRecognizer(target: self, action: #selector(SecondViewController.showFirstViewController))
+        swipeGestureRecongnizer.direction = .Right
+        self.view.addGestureRecognizer(swipeGestureRecongnizer)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func showFirstViewController() {
+        self.performSegueWithIdentifier("idFirstSegueUnwind", sender: self)
     }
-    */
+
 
 }

@@ -271,8 +271,12 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <segue destination="jct-AY-ij8" kind="unwind" identifier="idSecondSegueUnwind" unwindAction="returnFromSegueActions:" id="fJr-BT-l4Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fQ3-oh-uGZ" sceneMemberID="firstResponder"/>
+                <exit id="jct-AY-ij8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2191.5" y="-288.75"/>
         </scene>

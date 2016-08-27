@@ -44,8 +44,10 @@ class ViewController: UIViewController {
         var segue: UIStoryboardSegue!
         if let id = identifier {
             if id == "idFirstSegueUnwind" {
-                let unwindSegue = FirstCustomSegueUnwind(identifier: id, source: fromViewController, destination: toViewController, performHandler: {
-                })
+                let unwindSegue = FirstCustomSegueUnwind(identifier: id, source: fromViewController, destination: toViewController)
+                return unwindSegue
+            } else if id == "idSecondSegueUnwind" {
+                let unwindSegue = SecondCustomSegueUnwind(identifier: id, source: fromViewController, destination: toViewController)
                 return unwindSegue
             }
         }
@@ -56,4 +58,20 @@ class ViewController: UIViewController {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
